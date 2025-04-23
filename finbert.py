@@ -6,8 +6,7 @@
 # preprocessing pipeline from your previous work and fine-tunes FinBERT,
 # evaluating its loss and accuracy.
 #
-# Author: [Kroalist Arthur]
-# Date: April 2025
+
 
 import os
 import time
