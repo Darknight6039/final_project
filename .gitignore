@@ -5,7 +5,10 @@ __pycache__/
 
 # C extensions
 *.so
+# models
 
+best_finbert_model/
+financial_sentiment_model_1
 # Distribution / packaging
 .Python
 build/
