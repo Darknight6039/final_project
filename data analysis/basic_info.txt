@@ -1,0 +1,11 @@
+File: financial_phrase_bank_pt_br.csv
+Shape: (4845, 2)
+
+Column types:
+y       object
+text    object
+
+
+Null counts:
+y       0
+text    0
