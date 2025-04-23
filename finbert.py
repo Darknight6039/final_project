@@ -204,6 +204,9 @@ def main():
     tokenizer = BertTokenizer.from_pretrained("ProsusAI/finbert")
     model = BertForSequenceClassification.from_pretrained("ProsusAI/finbert", num_labels=3)
     model.to(device)
+    
+    for df in (train_df, val_df, test_df):
+        df["processed_text"] = df["processed_text"].fillna("").astype(str)
 
     def make_loader(df_split, shuffle=False):
         ds = FinancialSentimentDataset(df_split["processed_text"].tolist(), df_split["sentiment_label"].tolist(), tokenizer)
