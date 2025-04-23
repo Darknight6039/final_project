@@ -1,0 +1,23 @@
+BERT Base Classification Report:
+              precision    recall  f1-score   support
+
+    positive       0.24      0.11      0.15       204
+    negative       0.12      0.85      0.21        91
+     neutral       0.00      0.00      0.00       432
+
+    accuracy                           0.14       727
+   macro avg       0.12      0.32      0.12       727
+weighted avg       0.08      0.14      0.07       727
+
+
+FinBERT Base Classification Report:
+              precision    recall  f1-score   support
+
+    positive       0.80      0.46      0.58       204
+    negative       0.68      0.66      0.67        91
+     neutral       0.76      0.92      0.83       432
+
+    accuracy                           0.76       727
+   macro avg       0.75      0.68      0.70       727
+weighted avg       0.76      0.76      0.74       727
+
